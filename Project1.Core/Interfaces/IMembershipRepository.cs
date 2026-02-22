@@ -7,7 +7,7 @@ using Project1.Core.Domain;
 
 namespace Project1.Core.Interfaces
 {
-    public interface IMemembershipRepository
+    public interface IMembershipRepository
     {
         Membership? GetById(Guid id);
         Membership? GetByUserId(string userId);
